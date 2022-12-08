@@ -151,6 +151,7 @@ public class SocketApp {
                 String fromServer = dis.readUTF();
                 System.out.println("Server Message> " + fromServer);
             }
+            
         } catch (UnknownHostException e) {
             e.printStackTrace();
         } catch (IOException e) {
